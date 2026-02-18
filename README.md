@@ -20,7 +20,7 @@ An end-to-end automated customer support ticketing management system powered by 
 This project utilizes the **Bitext Customer Support Training Dataset**, containing ~27,000 rows of interactions across 11 categories (Account, Order, Refund, etc.) and 27 specific intents.
 
 ## 🛣️ Project Milestones
-- [ ] **Week 1: Data Preparation & PyTorch Environment**
+- [X] **Week 1: Data Preparation & PyTorch Environment**
     - Environment setup, Exploratory Data Analysis (EDA), and building Custom Dataset/DataLoader classes.
 - [ ] **Week 2: Training Classifier (The Deep Learning Part)**
     - Fine-tuning BERT/DistilBERT models for multi-class text classification.
