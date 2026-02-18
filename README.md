@@ -1,2 +1,39 @@
-# automated-tech-support-ticketing
-Automatic customer support ticket classification system using PyTorch (BERT/DistilBERT) and LLM integration.
+# Automated Tech-Support Ticketing System
+
+An end-to-end automated customer support ticketing management system powered by Deep Learning and Large Language Models (LLMs). This project aims to automate incoming ticket classification and generate initial response drafts to enhance customer service efficiency.
+
+## 🚀 Key Features
+- **Automated Classification**: Classifies customer tickets into 11 major categories using Transformers architecture (BERT/DistilBERT) implemented in PyTorch.
+- **AI-Powered Response Generation**: Integrates LLMs to generate automated, professional response drafts based on the identified ticket category and intent.
+- **Interactive Dashboard**: Visualizes ticket statistics and trends using Tableau for data-driven insights.
+- **User Interface**: Features an interactive demo built with Streamlit for real-time ticket submission simulations.
+
+## 🛠️ Tech Stack
+- **Programming Language**: Python
+- **Deep Learning**: PyTorch, Hugging Face Transformers
+- **API Framework**: FastAPI
+- **Frontend/UI**: Streamlit
+- **Data Visualization**: Tableau, Pandas
+- **Version Control**: Git & GitHub
+
+## 📊 Dataset
+This project utilizes the **Bitext Customer Support Training Dataset**, containing ~27,000 rows of interactions across 11 categories (Account, Order, Refund, etc.) and 27 specific intents.
+
+## 🛣️ Project Milestones
+- [ ] **Week 1: Data Preparation & PyTorch Environment**
+    - Environment setup, Exploratory Data Analysis (EDA), and building Custom Dataset/DataLoader classes.
+- [ ] **Week 2: Training Classifier (The Deep Learning Part)**
+    - Fine-tuning BERT/DistilBERT models for multi-class text classification.
+- [ ] **Week 3: LLM Integration & Backend Development**
+    - LLM integration for auto-responses and building the API layer with FastAPI.
+- [ ] **Week 4: UI, Dashboard, & Packaging**
+    - Developing the Streamlit UI, creating the Tableau Dashboard, and final documentation.
+
+## 📂 Repository Structure
+```text
+├── data/               # Raw and processed datasets
+├── notebooks/          # Google Colab notebooks for experimentation
+├── models/             # Trained model weights (.pth files)
+├── src/                # Main Python scripts (preprocessing, training)
+├── app/                # Streamlit & FastAPI application code
+└── README.md           # Project documentation
