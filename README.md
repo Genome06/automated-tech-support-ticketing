@@ -22,7 +22,7 @@ This project utilizes the **Bitext Customer Support Training Dataset**, containi
 ## 🛣️ Project Milestones
 - [X] **Week 1: Data Preparation & PyTorch Environment**
     - Environment setup, Exploratory Data Analysis (EDA), and building Custom Dataset/DataLoader classes.
-- [ ] **Week 2: Training Classifier (The Deep Learning Part)**
+- [X] **Week 2: Training Classifier (The Deep Learning Part)**
     - Fine-tuning BERT/DistilBERT models for multi-class text classification.
 - [ ] **Week 3: LLM Integration & Backend Development**
     - LLM integration for auto-responses and building the API layer with FastAPI.
