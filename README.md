@@ -24,10 +24,10 @@ This project utilizes the **Bitext Customer Support Training Dataset**, containi
     - Environment setup, Exploratory Data Analysis (EDA), and building Custom Dataset/DataLoader classes.
 - [X] **Week 2: Training Classifier (The Deep Learning Part)**
     - Fine-tuning BERT/DistilBERT models for multi-class text classification.
-- [ ] **Week 3: LLM Integration & Backend Development**
-    - LLM integration for auto-responses and building the API layer with FastAPI.
-- [ ] **Week 4: UI, Dashboard, & Packaging**
-    - Developing the Streamlit UI, creating the Tableau Dashboard, and final documentation.
+- [X] **Week 3: LLM Integration**
+    - LLM integration for auto-responses.
+- [ ] **Week 4: Backend Development ,UI, Dashboard, & Packaging**
+    - Developing the Streamlit UI, building the API layer with FastAPI, creating the Tableau Dashboard, and final documentation.
 
 ## 📂 Repository Structure
 ```text
@@ -37,3 +37,4 @@ This project utilizes the **Bitext Customer Support Training Dataset**, containi
 ├── src/                # Main Python scripts (preprocessing, training)
 ├── app/                # Streamlit & FastAPI application code
 └── README.md           # Project documentation
+└── requirements.txt    # Library List
