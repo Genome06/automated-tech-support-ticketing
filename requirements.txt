@@ -1,11 +1,12 @@
 # List Libraries and their versions here
-fastapi
-uvicorn
-streamlit
-torch
-transformers
-google-genai
-joblib
-pandas
-python-multipart
-python-dotenv
+fastapi==0.128.0
+uvicorn==0.40.0
+streamlit==1.53.1
+torch==2.10.0
+transformers==5.2.0
+google-genai==1.64.0
+joblib==1.5.2
+pandas==2.2.2
+python-multipart==0.0.15
+python-dotenv==1.2.1
+supervisor==4.2.5
