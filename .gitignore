@@ -3,12 +3,6 @@ __pycache__/
 *.py[codz]
 *$py.class
 
-# Ignore model artifacts
-models/
-*.bin
-*.pth
-*.joblib
-
 # C extensions
 *.so
 
