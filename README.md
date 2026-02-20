@@ -13,8 +13,8 @@ An end-to-end automated customer support ticketing management system powered by 
 - **Deep Learning**: PyTorch, Hugging Face Transformers
 - **API Framework**: FastAPI
 - **Frontend/UI**: Streamlit
-- **Data Visualization**: Tableau, Pandas
-- **Version Control**: Git & GitHub
+- **Data Visualization**: Pandas
+- **Version Control**: Git, GitHub, Hugging Face
 
 ## 📊 Dataset
 This project utilizes the **Bitext Customer Support Training Dataset**, containing ~27,000 rows of interactions across 11 categories (Account, Order, Refund, etc.) and 27 specific intents.
