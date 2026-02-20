@@ -1,0 +1,10 @@
+# List Libraries and their versions here
+fastapi
+uvicorn
+streamlit
+torch
+transformers
+google-generativeai
+joblib
+pandas
+python-multipart
