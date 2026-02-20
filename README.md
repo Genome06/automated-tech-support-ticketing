@@ -26,7 +26,7 @@ This project utilizes the **Bitext Customer Support Training Dataset**, containi
     - Fine-tuning BERT/DistilBERT models for multi-class text classification.
 - [X] **Week 3: LLM Integration**
     - LLM integration for auto-responses.
-- [ ] **Week 4: Backend Development ,UI, & Packaging**
+- [X] **Week 4: Backend Development ,UI, & Packaging**
     - Developing the Streamlit UI, building the API layer with FastAPI, and final documentation.
 
 ## 📂 Repository Structure
