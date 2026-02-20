@@ -33,8 +33,11 @@ This project utilizes the **Bitext Customer Support Training Dataset**, containi
 ```text
 ├── data/               # Raw and processed datasets
 ├── notebooks/          # Google Colab notebooks for experimentation
-├── models/             # Trained model weights (.pth files)
+├── models/             # Trained model weights (.pth files) 
 ├── src/                # Main Python scripts (preprocessing, training)
 ├── app/                # Streamlit & FastAPI application code
 └── README.md           # Project documentation
 └── requirements.txt    # Library List
+```
+
+*Note: Due to file size limits, model weights are hosted on [Hugging Face](https://huggingface.co/genome06/automated_tech_support_ticketing_model).*
