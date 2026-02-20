@@ -15,8 +15,10 @@ WORKDIR /home/user/app
 # Copy requirements and install
 # We install as user 1000
 COPY --chown=user requirements.txt .
-RUN pip install --no-cache-dir --user -r requirements.txt \
-    && pip install --user supervisor
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir "setuptools<70" && \
+    pip install --no-cache-dir -r requirements.txt && \
+    pip install --no-cache-dir supervisor
 
 # Copy project files with user ownership
 COPY --chown=user . .
