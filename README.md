@@ -26,8 +26,8 @@ This project utilizes the **Bitext Customer Support Training Dataset**, containi
     - Fine-tuning BERT/DistilBERT models for multi-class text classification.
 - [X] **Week 3: LLM Integration**
     - LLM integration for auto-responses.
-- [ ] **Week 4: Backend Development ,UI, Dashboard, & Packaging**
-    - Developing the Streamlit UI, building the API layer with FastAPI, creating the Tableau Dashboard, and final documentation.
+- [ ] **Week 4: Backend Development ,UI, & Packaging**
+    - Developing the Streamlit UI, building the API layer with FastAPI, and final documentation.
 
 ## 📂 Repository Structure
 ```text
@@ -41,3 +41,17 @@ This project utilizes the **Bitext Customer Support Training Dataset**, containi
 ```
 
 *Note: Due to file size limits, model weights are hosted on [Hugging Face](https://huggingface.co/genome06/automated_tech_support_ticketing_model).*
+
+## 💡 Technical Highlights & Challenges
+
+### 1. Hybrid Intelligence Pipeline
+The system uses a two-step inference process. First, a fine-tuned **DistilBERT** model identifies the user's intent with high speed and low cost. Second, the **Gemini 2.5-flash** model generates a human-like response grounded in the retrieved knowledge base.
+
+### 2. Implementation of Confidence Thresholding
+To ensure reliability, I implemented a Softmax-based confidence gate. If the classifier's probability is below **0.8**, the system triggers a fallback mechanism where the LLM asks for clarification instead of providing a potentially wrong answer.
+
+### 3. Modular & Scalable Architecture
+Following best practices in Software Engineering, the project is structured using **Object-Oriented Programming (OOP)**. The backend (FastAPI) is decoupled from the frontend (Streamlit), allowing for independent scaling and easier maintenance.
+
+### 4. Efficient Model Hosting
+Due to GitHub's file size limitations, model weights are hosted on **Hugging Face Hub**, while the codebase remains lightweight and version-controlled on GitHub.

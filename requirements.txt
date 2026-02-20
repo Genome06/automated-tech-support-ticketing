@@ -4,7 +4,8 @@ uvicorn
 streamlit
 torch
 transformers
-google-generativeai
+google-genai
 joblib
 pandas
 python-multipart
+python-dotenv
