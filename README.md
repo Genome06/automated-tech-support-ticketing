@@ -1,3 +1,13 @@
+---
+title: Automated Tech-Support Ticketing System
+emoji: 🤖
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+license: mit
+---
+
 # Automated Tech-Support Ticketing System
 
 An end-to-end automated customer support ticketing management system powered by Deep Learning and Large Language Models (LLMs). This project aims to automate incoming ticket classification and generate initial response drafts to enhance customer service efficiency.
